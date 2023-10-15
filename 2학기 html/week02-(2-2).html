@@ -1,0 +1,216 @@
+Welcome to Node.js v18.17.1.
+Type ".help" for more information.
+> var i=100;
+undefined
+> i
+100
+> var i ="DIT"
+undefined
+> oi
+Uncaught ReferenceError: oi is not defined
+> i
+'DIT'
+> let j =356;
+undefined
+> j
+356
+> lte ;="DIT"
+lte ;="DIT"
+     ^
+
+Uncaught SyntaxError: Unexpected token '='
+> j
+356
+> let j="DIT"
+Uncaught SyntaxError: Identifier 'j' has already been declared
+> j
+356
+> j="DIT"
+'DIT'
+> j=2>3
+false
+> j
+false
+> const pi:
+const pi:
+      ^^
+
+Uncaught SyntaxError: Missing initializer in const declaration
+> conts pi=3.14:
+conts pi=3.14:
+      ^^
+
+Uncaught SyntaxError: Unexpected identifier
+> pi
+Uncaught ReferenceError: pi is not defined
+> const pi=3.14:
+const pi=3.14:
+             ^
+
+Uncaught SyntaxError: Unexpected token ':'
+> const pi=3.14;
+undefined
+> pi
+3.14
+> pi=3.1415
+Uncaught TypeError: Assignment to constant variable.
+> pi
+3.14
+> pi=3.1415;
+Uncaught TypeError: Assignment to constant variable.
+> pi
+3.14
+> j
+false
+> j=100
+100
+> j+=100;
+200
+> j
+200
+> 7 %3
+1
+> j%=23
+16
+> 2**10
+1024
+> j=3
+3
+> j**=10
+59049
+> j=10
+10
+> j++;
+10
+> j
+11
+> ++j;
+12
+> j=5;
+5
+>
+>
+>
+>
+>
+>
+>
+> j++
+5
+> j
+6
+> ++j
+7
+> typef(j)
+Uncaught ReferenceError: typef is not defined
+> typeof(j)
+'number'
+> j='DIT'
+'DIT'
+> typeof(j)
+'string'
+> j=true
+true
+> typeof(j)
+'boolean'
+> let k;
+undefined
+> typeof(k)
+'undefined'
+> j=function f(){};
+[Function: f]
+> typeof(j)
+'function'
+> j={}
+{}
+> j
+{}
+> typeof(j)
+'object'
+> Number("365")
+365
+> Number(true)
+1
+> Number(false)
+0
+> Number('DIT')
+NaN
+> NaN ==NaN
+false
+> Number("DIT")( == NaN
+Number("DIT")( == NaN
+               ^^
+
+Uncaught SyntaxError: Unexpected token '=='
+> Number("DIT") == Nan
+Uncaught ReferenceError: Nan is not defined
+> Number("DIT") == NaN
+false
+> isNaN(Number("DIT"))
+true
+> String(true)
+'true'
+> String(34)
+'34'
+> String(Number("DIT"))
+'NaN'
+> j
+{}
+> j={}
+{}
+> String(j)
+'[object Object]'
+> Boolean(0)
+false
+> Boolean(Nan)
+Uncaught ReferenceError: Nan is not defined
+> Boolean(NaN)
+false
+> Boolean("")
+false
+> Boolean(null)
+false
+> Boolean(undefined)
+false
+> Boolean(5)
+true
+> Boolean("DIT"
+...
+... Boolean("DIT")
+Boolean("DIT"
+        ^^^^^
+
+Uncaught SyntaxError: missing ) after argument list
+> Boolean("DIT")
+true
+> Boolean("false")
+true
+> Boolean({})
+true
+> 365 = "days"
+365 = "days"
+^^^
+
+Uncaught SyntaxError: Invalid left-hand side in assignment
+> 365='days'
+365='days'
+^^^
+
+Uncaught SyntaxError: Invalid left-hand side in assignment
+> 365
+365
+> 365+'days'
+'365days'
+> 365+""
+'365'
+> 365+"365"
+'365365'
+> 365=="365"
+true
+> Number("365")
+365
+> 365=="365"
+true
+> 365==="365"
+false
+>
